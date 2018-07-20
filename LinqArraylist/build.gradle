@@ -1,0 +1,58 @@
+apply plugin: 'java'
+
+ext {
+    //For bintray and jcenter distribution
+    bintrayRepo = 'LinqArraylist'
+    bintrayName = 'LinqArraylist'
+
+    publishedGroupId = 'gr.loukaspd'
+    libraryName = 'LinqArraylist'
+    artifact = 'LinqArraylist'
+
+    libraryDescription = 'Linq-like functionality for Java ArrayList'
+    libraryVersion = '1.0.0'
+
+    siteUrl = 'https://github.com/loukaspd/LinqArraylist'
+    gitUrl = 'https://github.com/loukaspd/LinqArraylist.git'
+
+    developerId = 'gr.loukaspd'
+    developerName = 'loukaspd'
+    developerEmail = 'loukaspd@gmail.com'
+    organization = ''
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
+//These two remote files contain Bintray configuration
+apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/install.gradle'
+apply from: 'https://raw.githubusercontent.com/quangctkm9207/template-files/master/android/gradle/bintray.gradle'
+
+/*
+android {
+    compileSdkVersion 27
+    buildToolsVersion "28.0.0"
+    defaultConfig {
+        applicationId "loukaspd.gr.linqarraylistproject"
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+*/
