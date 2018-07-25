@@ -6,6 +6,7 @@ use Linq-like functions to Java ArrayLists
 ```
     implementation 'gr.loukaspd:LinqArraylist:1.0.0'
 ```
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-LinqArraylist-green.svg?style=flat )]( https://android-arsenal.com/details/1/7060 )
 
 ## Usage
 1. Instantiate a LinqArrayList object by passing it your original ArrayList
