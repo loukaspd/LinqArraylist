@@ -1,17 +1,20 @@
 # LinqArraylist
 
-use Linq-like functions to Java ArrayLists
+[ ![Download](https://api.bintray.com/packages/loukaspd/LinqArraylist/LinqArraylist/images/download.svg) ](https://bintray.com/loukaspd/LinqArraylist/LinqArraylist/_latestVersion)
+[![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-LinqArraylist-green.svg?style=flat )]( https://android-arsenal.com/details/1/7060 )  
+use Linq-like functions to Java Collections
 
 
 ```
-    implementation 'gr.loukaspd:LinqArraylist:1.0.0'
+    implementation 'gr.loukaspd:LinqArraylist:{latest version}'
 ```
+where `{latest version}` corresponds to published version in [ ![Download](https://api.bintray.com/packages/loukaspd/LinqArraylist/LinqArraylist/images/download.svg) ](https://bintray.com/loukaspd/LinqArraylist/LinqArraylist/_latestVersion)
 [![Android Arsenal]( https://img.shields.io/badge/Android%20Arsenal-LinqArraylist-green.svg?style=flat )]( https://android-arsenal.com/details/1/7060 )
 
 ## Usage
-1. Instantiate a LinqArrayList object by passing it your original ArrayList
+1. Instantiate a LinqArrayList object by passing it your original Collection
 2. Apply linq methods (even chaining) like select, where etc..
-3. Get the resulting ArrayList by calling `getArrayList()` method
+3. Get the resulting Collection by calling `getCollection` or `getArrayList()` to get a new ArrayList from the collection
 
 
 ## Examples
